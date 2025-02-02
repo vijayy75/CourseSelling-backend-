@@ -2,25 +2,25 @@
 This is the backend for a Course Selling Platform built using Node.js, Express, and JWT for authentication. It includes separate panels for Admin and User roles, allowing admins to manage courses and users to purchase and access them.
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-**Features**
-Admin Panel
+**Features**<br>
+**Admin Panel**
 Create, Update, Delete Courses: Admins can manage courses.
 
 
-User Panel
-Browse Courses: Users can view available courses.
+**User Panel**
+**Browse Courses:** Users can view available courses.
 
-Purchase Courses: Users can purchase courses.
+**Purchase Courses:** Users can purchase courses.
 
-View Purchased Courses: Users can access the courses they've purchased.
+**View Purchased Courses:** Users can access the courses they've purchased.
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-**Authentication**
-JWT-based Authentication: Secure login and registration for both admins and users.
+**Authentication**<br>
+**JWT-based Authentication: **Secure login and registration for both admins and users.
 
-Role-based Access Control: Admins and users have different permissions based on their roles.
+**Role-based Access Control:** Admins and users have different permissions based on their roles.
 
-Technologies Used
+**Technologies Used**
 Node.js: Runtime environment.
 
 Express: Web framework for building APIs.

@@ -1,2 +1,41 @@
 # CourseSelling-backend-
-This repository contains the backend code for a course-selling web application, built with Node.js, Express, and MongoDB.
+This is the backend for a Course Selling Platform built using Node.js, Express, and JWT for authentication. It includes separate panels for Admin and User roles, allowing admins to manage courses and users to purchase and access them.
+
+Features
+Admin Panel
+Create, Update, Delete Courses: Admins can manage courses.
+
+View All Users: Admins can view a list of registered users.
+
+Manage Orders: Admins can view and manage user orders.
+
+User Panel
+Browse Courses: Users can view available courses.
+
+Purchase Courses: Users can purchase courses.
+
+View Purchased Courses: Users can access the courses they've purchased.
+
+Profile Management: Users can update their profile information.
+
+Authentication
+JWT-based Authentication: Secure login and registration for both admins and users.
+
+Role-based Access Control: Admins and users have different permissions based on their roles.
+
+Technologies Used
+Node.js: Runtime environment.
+
+Express: Web framework for building APIs.
+
+JWT (JSON Web Tokens): For secure authentication.
+
+MongoDB: Database to store users, courses, and orders.
+
+Mongoose: ODM for MongoDB.
+
+Bcrypt: For password hashing.
+
+Dotenv: For managing environment variables.
+
+
